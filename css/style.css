@@ -58,11 +58,12 @@
 }
 .bottom_main {
   background-color: #1ABC9C;
-  height: 500px;
 }
 .text_main {
-  margin-top: 150px;
-  margin-right: 20px;
-  height: 200px;
-  width: 350px;
+  margin-top: 100px;
+  height: 250px;
+}
+/* footer */
+.padding_footer {
+  padding: 5.5em;
 }
