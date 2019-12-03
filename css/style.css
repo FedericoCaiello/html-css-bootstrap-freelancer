@@ -1,0 +1,40 @@
+[class*="col-"] {
+  background-color: pink;
+  border: 1px solid black;
+  height: 100px;
+}
+
+.menu{
+  background-color: #2C3E50;
+}
+
+.header_bottom {
+  height: 400px;
+  background-color: red;
+  position: relative;
+}
+
+.logo_banner {
+  height: 100px;
+  width: 100px;
+  background-color: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media screen and (min-width: 992px) {
+  .hamburger {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .display_none {
+    background-color: blue;
+  }
+  .hamburger {
+    display: none;
+  }
+}
