@@ -1,6 +1,5 @@
 [class*="col-"] {
   background-color: pink;
-  border: 1px solid black;
   height: 100px;
 }
 
@@ -23,6 +22,46 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+/* main */
+
+.container-fluid h2{
+  font-size: 3em;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-transform: uppercase;
+}
+.image img{
+  width: 100%;
+  border-radius: 8px;
+}
+.container_image {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  width: 80%;
+  margin: auto;
+}
+.container_image .col-xs-12{
+  padding-bottom: 20px;
+}
+.background {
+  background-color: #1ABC9C;
+  height: 500px;
+  position: relative;
+}
+/* altezze da levare domani */
+.about {
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* footer */
+
+
 /* media query */
 @media screen and (min-width: 992px) {
   .hamburger {
@@ -37,33 +76,4 @@
   .hamburger {
     display: none;
   }
-}
-/* main */
-.center_box {
-  margin: auto;
-  max-width: 1200px;
-}
-.box {
-  background-color: orange;
-  margin: 20px;
-  height: 200px;
-  width: 300px;
-}
-.padding_box {
-  width: 50%
-  padding: 5.5em;
-  margin-top: 80px;
-  margin-bottom: 60px;
-  margin-left: 70px;
-}
-.bottom_main {
-  background-color: #1ABC9C;
-}
-.text_main {
-  margin-top: 100px;
-  height: 250px;
-}
-/* footer */
-.padding_footer {
-  padding: 5.5em;
 }
