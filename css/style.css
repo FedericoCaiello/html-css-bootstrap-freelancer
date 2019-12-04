@@ -88,21 +88,29 @@ h1 {
 .star {
   width: 100%;
   padding: 25px;
+  text-align: center;
 }
 .line {
+  width: 80px;
+  display: inline-block;
   background-color: white;
   height: 0.25em;
   max-width: 8em;
 }
 .icon {
+  display: inline-block;
   color: white;
   font-size: 25px;
+  margin: 10px;
 }
 .text_p {
   color: white;
   font-size: 25px;
 }
 /* Portfolio */
+.container_jambo{
+  width: 100%;
+}
 h2 {
   color: #2C3E50;
   font-size: 5em;
@@ -112,23 +120,27 @@ h2 {
 .star_black{
   width: 100%;
   padding: 25px;
+  text-align: center;
 }
 .line_black {
-  color: #2C3E50;
+  display: inline-block;
+  background-color: #2C3E50;
   height: 0.25em;
   max-width: 8em;
-  width: 100%;
+  width: 80px;
 }
 .icon_back {
+  display: inline-block;
   color: #2C3E50;
   text-align: center;
   font-size: 25px;
+  margin: 10px;
 }
 .box_portfolio {
   margin-bottom: 35px;
 }
 .box {
-  height: 270px;
+  width:100%;
   border-radius: 5px;
 }
 .row {
@@ -136,6 +148,28 @@ h2 {
   margin-left: -30px;
 }
 /* portfolio */
+
+/* about */
+.about_text_center a {
+  text-align: center;
+  padding: 15px;
+  color: white;
+  font-size: 24px;
+  width: 100%;
+  height: 25px;
+  border: 1px solid white;
+  border-radius: 3px;
+}
+.about_text_center {
+  text-decoration: none;
+}
+.margin_about {
+  margin-top: 50px;
+}
+.about_text_center {
+  width: 100%;
+  text-align: center;
+}
 
 /* Footer */
 .footer_top {
